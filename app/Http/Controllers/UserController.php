@@ -78,8 +78,6 @@ class UserController extends Controller
         $user->save();
         return redirect()->route('user.index')->with('success', 'Data Berhasil Diupdate!');
 
-        $user->save();
-        return redirect()->route('user.index')->with('success', 'Data Berhasil Diupdate!');
     }
 
     /**
